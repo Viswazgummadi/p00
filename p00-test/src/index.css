@@ -1,66 +1,52 @@
-.card
+body{
+    background-color: rgba(175, 123, 203, 0.444);
+    text-align: center;
+    display: flex;
+    padding-left: 30vw;
+    padding-top: 31vh;
+    font-family: 'Merienda', cursive;
+
+}
+.display
 {
-  border: 1px solid hsl(0, 0%, 48%);
-  border-radius: 10px;
-  box-shadow: 5px 5px 5px hsl(0, 0%, 42%);
-  padding: 10px;
-  margin: 10px;
-  text-align: center;
-  max-width: 260px;
+    background-color: rgba(154, 77, 196, 0.281);
+    font-size: 100px;
+    /* text-align: center; */
+    /* min-height: 1vh; */
+    border:none;
+    border-radius: 10px;
 }
-
-.card img {
-  /* Add your styles here */
-  width: 50%;
-  height: 50%;
-  border-radius: 50%;
-}
-
-.card .card-title{
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  color: hsl(0, 0%, 0%);
-}
-.card .card-text{
-  font-family: Arial, Helvetica, sans-serif;
-  color: hsl(0, 0%, 40%);
-}
-
-.card-container {
-  min-height: 300px;
-  display: flex;
-  gap: 20px; /* space between cards */
-  justify-content: center; /* optional: center the cards */
-  flex-wrap: wrap; /* optional: wrap cards if screen is small */
-}
-
-
-
-.counter-container
+/* .stopwatch
 {
-  text-align: center;
+    background-color: rgba(172, 86, 218, 0.193);
+
+} */
+.controls
+{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    /* display: inline; */
+    font-family: 'Merienda', cursive;
+
 
 }
+.start-button , .stop-button, .reset-button
+{
+    background-color: rgba(172, 86, 218, 0.193);
 
-.counter-display
-{
-  font-family: 'Merienda', cursive;
-  font-size : 10em;
-  margin-bottom: 50px ;
+    margin-left:20px;
+    margin-right:20px;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: rgba(172, 86, 218, 0.193);;
+    border-radius: 5px;
+    cursor: pointer;
 }
-
-.counter-button
+.start-button:hover , .stop-button:hover, .reset-button:hover
 {
-  font-size: 17px;
-  width: 150px;
-  height: 40px;
-  background-color: rgb(197, 197, 197);
-  margin: 0px 5px;
-  border: none;
-  border-radius: 7px ;
-  cursor: pointer;
-}
-.counter-button:hover
-{
-  background-color: rgb(164, 164, 164);
+    background-color: rgba(96, 48, 121, 0.488);
 }

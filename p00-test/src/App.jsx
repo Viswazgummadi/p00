@@ -1,7 +1,8 @@
-import Comp1 from "./Comp1.jsx";
+import Stopwatch from "./Stopwatch.jsx"
+
 
 function App() {
-  return <Comp1 />;
+  return <Stopwatch/>;
 }
 
 export default App;
